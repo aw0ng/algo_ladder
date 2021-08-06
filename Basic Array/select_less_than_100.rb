@@ -2,3 +2,13 @@
 
 # Input: [99, 101, 88, 4, 2000, 50]
 # Output: [99, 88, 4, 50]
+
+# CLARIFY
+
+# VISUALIZE
+
+# CODE
+
+# DEBUG
+
+# REFACTOR

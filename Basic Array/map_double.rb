@@ -2,3 +2,13 @@
 
 # Input: [4, 2, 5, 99, -4]
 # Output: [8, 4, 10, 198, -8]
+
+# CLARIFY
+
+# VISUALIZE
+
+# CODE
+
+# DEBUG
+
+# REFACTOR

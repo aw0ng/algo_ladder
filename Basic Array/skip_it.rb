@@ -7,3 +7,13 @@
 
 # Output:
 # [2, 3, 1, 2, 2, 1, 5, 2, 2]
+
+# CLARIFY
+
+# VISUALIZE
+
+# CODE
+
+# DEBUG
+
+# REFACTOR

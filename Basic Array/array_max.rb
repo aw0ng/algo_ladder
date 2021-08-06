@@ -2,3 +2,13 @@
 
 # Input: [5, 17, -4, 20, 12]
 # Output: 20
+
+# CLARIFY
+
+# VISUALIZE
+
+# CODE
+
+# DEBUG
+
+# REFACTOR
