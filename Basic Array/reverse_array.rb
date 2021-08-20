@@ -9,6 +9,19 @@
 
 # CODE
 
+def reverse(numbers)
+  new_array = []
+  i = numbers.length - 1
+  while i >= 0
+    new_array << numbers[i]
+    i -= 1
+  end
+  return new_array
+end
+
+numbers = [1, 2, 3, 4, 5]
+p reverse(numbers)
+
 # DEBUG
 
 # REFACTOR
