@@ -8,8 +8,23 @@
 # CLARIFY
 
 # VISUALIZE
+# Input: [1, 2, 3, 4]
+# Output: 24
 
 # CODE
+
+def reduce_product(numbers)
+  product = 1
+  i = 1
+  while i < numbers.length
+    product = product * numbers[i]
+    i += 1
+  end
+  return product
+end
+
+numbers = [1, 2, 3, 4]
+p reduce_product(numbers)
 
 # DEBUG
 
