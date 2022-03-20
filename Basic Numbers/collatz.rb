@@ -20,17 +20,13 @@
 
 # Resulting in 9 steps. So for input n = 12, the return value would be 9.
 
-def collatz(num)
-  temp = num
-  steps = []
-  if temp % 2 == 0
-    temp = temp % 2
-    steps << temp
-  elsif
-    temp = temp % 3 + 1
-    steps << temp
+def collatz(num, arr=[])
+  while num != 1
+    arr << num
+    num = num.even? ? num / 2 : num * 3 + 1
   end
-  return steps.length
+  arr.push(1)
+  return arr.length - 1
 end
 
 p collatz(12)
