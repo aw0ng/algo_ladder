@@ -30,3 +30,20 @@ def collatz(num, arr=[])
 end
 
 p collatz(12)
+
+def collatz(num)
+  steps = []
+  while num != 1
+    steps << num
+    if num % 2 == 0
+      num = num / 2
+    else
+      num = num * 3 + 1
+    end
+  end
+  steps << 1
+  return steps.length - 1
+end
+
+p collatz(12)
+
