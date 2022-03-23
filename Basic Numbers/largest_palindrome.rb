@@ -4,6 +4,7 @@
 
 def largest_pal(num)
   largest = 0
+  max = 0
   temp = 0
   i = 100
   while i < num
@@ -14,15 +15,16 @@ def largest_pal(num)
       temp = num1 * num2
       temp_string = temp.to_s
       if temp_string == temp_string.reverse
-        p num1
-        p num2
         largest = temp
+        if largest > max
+          max = largest
+        end
       end
       i2 += 1
     end
     i += 1
   end
-  return largest
+  return max
 end
 
 p largest_pal(999)
