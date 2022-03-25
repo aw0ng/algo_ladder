@@ -9,28 +9,21 @@
 # Output: false (While 1, 2, 3, and 4 altogether add up to 10, we're seeking just one pair of numbers.)
 
 def ten(array)
-  pair = []
+  pair = false
   i = 0
   while i < array.length
-    num1 = array[i]
     i2 = 0
     while i2 < array.length
-      num2 = array[i2]
       if i != i2
-        if num1 + num2 == 10
-          pair << num1
-          pair << num2
+        if array[i] + array[i2] == 10
+          pair = [array[i], array[i2]]
         end
       end
       i2 += 1
     end
     i += 1
   end
-  if pair.length == 0
-    return false
-  else
-    return pair
-  end
+  return pair
 end
 
 nums = [2, 5, 3, 1, 0, 7, 11]
