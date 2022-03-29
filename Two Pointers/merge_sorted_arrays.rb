@@ -43,6 +43,7 @@ def merge_arrays(c, d)
     result << d.shift
   end
 
+  p result
   # check to see if either array is empty
   if c.length == 0
     return result + d
@@ -56,3 +57,4 @@ end
 p merge_arrays(c, d)
 # prints [1, 3, 4, 5, 6, 8, 10, 11, 12, 14, 15, 19]
 p merge_arrays(A, B)
+
